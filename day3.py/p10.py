@@ -1,0 +1,6 @@
+n=input("enter the lines ").split(' ')
+d=set(n)
+print(d)
+g=list(d)
+g.sort()
+print(" ".join(g))
